@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Nivaldo\'s Card</string>
+    <string name="profilePhotoDescription">Nivaldo\'s profile picture</string>
+    <string name="name">Nivaldo Lopo</string>
+    <string name="email">nivaldo.lopo@gmail.com</string>
+    <string name="phone">+5561991349451</string>
+    <string name="socialMedia">\@nivaldolopo</string>
+    <string name="city">Florianópolis, SC, Brazil</string>
+    <string name="buttonQrCode">Show QR code</string>
+    <string name="iconMail">Email Icon</string>
+    <string name="iconPhone">Phone Icon</string>
+    <string name="iconTwitter">Twitter icon</string>
+    <string name="buttonDialogTitle">Nivaldo\'s Contact</string>
+    <string name="qrImage">QR CODE</string>
+    <string name="designerAttribute">Attribution to the design author</string>
+    <string name="attributionTitle">App Icon Attribution</string>
+    <string name="attributionMessage">Icon made by Freepik from www.flaticon.com</string>
+</resources>

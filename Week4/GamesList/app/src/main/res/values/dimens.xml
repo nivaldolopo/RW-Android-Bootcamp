@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="gameImageWidth">80dp</dimen>
+    <dimen name="gameImageHeight">128dp</dimen>
+    <dimen name="layoutMarginSize">16dp</dimen>
+    <dimen name="layoutMarginSizeTextDetail">3dp</dimen>
+    <dimen name="gameImageInDetailsHeight">350dp</dimen>
+</resources>

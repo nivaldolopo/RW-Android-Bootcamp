@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/profilePhoto"
+        android:layout_width="144dp"
+        android:layout_height="174dp"
+        android:layout_marginStart="64dp"
+        android:contentDescription="@string/profilePhotoDescription"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/profile_photo" />
+
+    <Button
+        android:id="@+id/buttonQRCode"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/buttonQrCode"
+        app:layout_constraintStart_toStartOf="@+id/name"
+        app:layout_constraintTop_toBottomOf="@+id/city" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="@dimen/infoWidth"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:text="@string/name"
+        android:textColor="@color/colorTextView"
+        app:layout_constraintStart_toEndOf="@+id/profilePhoto"
+        app:layout_constraintTop_toTopOf="@+id/profilePhoto" />
+
+    <ImageView
+        android:id="@+id/iconMail"
+        android:layout_width="@dimen/iconWidth"
+        android:layout_height="@dimen/iconHeight"
+        android:layout_marginTop="5dp"
+        android:contentDescription="@string/iconMail"
+        app:layout_constraintStart_toStartOf="@+id/name"
+        app:layout_constraintTop_toBottomOf="@+id/name"
+        app:srcCompat="@android:drawable/sym_action_email" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="@string/email"
+        android:textColor="@color/colorTextView"
+        app:layout_constraintBottom_toBottomOf="@+id/iconMail"
+        app:layout_constraintStart_toEndOf="@+id/iconMail"
+        app:layout_constraintTop_toTopOf="@+id/iconMail" />
+
+    <ImageView
+        android:id="@+id/iconPhone"
+        android:layout_width="@dimen/iconWidth"
+        android:layout_height="@dimen/iconHeight"
+        android:layout_marginTop="5dp"
+        android:contentDescription="@string/iconPhone"
+        app:layout_constraintStart_toStartOf="@+id/name"
+        app:layout_constraintTop_toBottomOf="@+id/iconMail"
+        app:srcCompat="@android:drawable/stat_sys_phone_call" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="@string/phone"
+        android:textColor="@color/colorTextView"
+        app:layout_constraintBottom_toBottomOf="@+id/iconPhone"
+        app:layout_constraintStart_toEndOf="@+id/iconPhone"
+        app:layout_constraintTop_toTopOf="@+id/iconPhone" />
+
+    <ImageView
+        android:id="@+id/iconTwitter"
+        android:layout_width="@dimen/iconWidth"
+        android:layout_height="@dimen/iconHeight"
+        android:layout_marginTop="5dp"
+        android:contentDescription="@string/iconTwitter"
+        app:layout_constraintStart_toStartOf="@+id/name"
+        app:layout_constraintTop_toBottomOf="@+id/iconPhone"
+        app:srcCompat="@drawable/twitterlogo" />
+
+    <TextView
+        android:id="@+id/socialMedia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="@string/socialMedia"
+        android:textColor="@color/colorTextView"
+        app:layout_constraintBottom_toBottomOf="@+id/iconTwitter"
+        app:layout_constraintStart_toEndOf="@+id/iconTwitter"
+        app:layout_constraintTop_toTopOf="@+id/iconTwitter" />
+
+    <TextView
+        android:id="@+id/city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/city"
+        android:textColor="@color/colorTextView"
+        app:layout_constraintStart_toStartOf="@+id/name"
+        app:layout_constraintTop_toBottomOf="@+id/iconTwitter" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

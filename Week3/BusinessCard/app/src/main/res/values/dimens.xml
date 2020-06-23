@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="iconWidth">20dip</dimen>
+    <dimen name="iconHeight">20dip</dimen>
+    <dimen name="infoWidth">185dip</dimen>
+</resources>
